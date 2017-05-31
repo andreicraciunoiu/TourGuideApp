@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="writingColor1">#000000</color>
+    <color name="buttonColor">#90A4AE</color>
+    <color name="detailsButtonColor">#90A4AE</color>
+    <color name="continueButtonColor">#90A4AE</color>
+    <color name="localizationBackground">#26A69A</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="category_historical">#9E9E9E</color>
+    <color name="category_restaurants">#8D6E63</color>
+    <color name="category_parks">#4CAF50</color>
+    <color name="category_activities">#4DB6AC</color>
+    <color name="background">#90CAF9</color>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.android.tourguidebucharest.MainActivity">
+
+    <ImageView
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/experience_bucharest" />
+
+    <TextView
+        android:id="@+id/hello_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/padding_dimension"
+        android:text="@string/intro_text"
+        android:textColor="@color/writingColor1"
+        android:textSize="@dimen/text_dimension2" />
+
+    <TextView
+        android:id="@+id/shall_we"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hello_id"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/padding_dimension"
+        android:text="@string/shall_we"
+        android:textColor="@color/writingColor1"
+        android:textSize="@dimen/text_dimension" />
+
+    <Button
+        android:id="@+id/begin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttons"
+        android:textColor="@color/textWhite"
+        android:text="@string/begin_button" />
+</RelativeLayout>

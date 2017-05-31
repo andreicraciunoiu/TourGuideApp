@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Bucharest Tour Guide</string>
+    <string name="intro_text">Hello and welcome to Bucharest!</string>
+    <string name="shall_we">Let\'s begin, shall we?</string>
+    <string name="begin_button">Begin</string>
+    <string name="continue_button">Continue</string>
+    <string name="details_button">Details</string>
+    <string name="localization">Localization</string>
+    <string name="details">\t\tBucharest (București) is the capital and largest city of Romania,
+        as well as its cultural, industrial, and financial centre.\n\t\t It is located in the southeast
+        of the country, on the banks of the Dâmbovița River, less than 60 km North of the Danube River and the Bulgarian border.\n
+        Bucharest was first mentioned in documents in 1459. It became the capital of Romania in 1862 and is the centre of Romanian media,
+        culture, and art. Its architecture is a mix of historical (neo-classical), interbellum (Bauhaus and art deco), communist-era and modern.
+        In the period between the two World Wars, the city\'s elegant architecture and the sophistication of its elite earned Bucharest the nickname
+        of "Little Paris" (Micul Paris). \n\t\tAlthough buildings and districts in the historic city centre were heavily damaged or destroyed by war, earthquakes,
+        and above all Nicolae Ceaușescu\'s program of systematization, many survived. In recent years, the city has been experiencing an economic and cultural boom.
+        In 2016, the historical city centre was listed as "endangered" by the World Monuments Watch.
+        \t\tAccording to the 2011 census, 1,883,425 inhabitants live within the city limits, a decrease from the 2002 census. The urban area extends beyond the limits of Bucharest
+        proper and has a population of about 1.9 million people. Adding the satellite towns around the urban area, the proposed metropolitan area of Bucharest would have a
+        population of 2.27 million people.\n\t\t According to Eurostat, Bucharest has a larger urban zone of 2,183,091 residents. According to unofficial data, the population
+        is more than 3 million. Bucharest is the sixth-largest city in the European Union by population within city limits, after London, Berlin, Madrid, Rome, and Paris.
+        Economically, Bucharest is the most prosperous city in Romania and is one of the main industrial centres and transportation hubs of Eastern Europe. The city has big convention
+        facilities, educational institutes, cultural venues, traditional "shopping arcades", and recreational areas.
+        The city proper is administratively known as the "Municipality of Bucharest" (Municipiul București), and has the same administrative level as that of a national county, being
+        further subdivided into six sectors, each governed by a local mayor.</string>
+
+    <string name="category_parks">Parks</string>
+    <string name="category_historical_places">History</string>
+    <string name="category_restaurants">Food</string>
+    <string name="category_activities">Activities</string>
+    <string name="content_description">Image used for every attraction.</string>
+    <string name="city_name">Bucharest</string>
+
+    <!--============================================================================================================================================================================-->
+    <!--Historical attractions-->
+    <string name="palace_of_parliament">Palace of the Parliament</string>
+    <string name="romanian_athenaeum">Romanian Athenaeum</string>
+    <string name="art_museum">National Museum of Art</string>
+    <string name="antipa_museum">Grigore Antipa Museum</string>
+    <string name="peasant_museum">Museum of the Romanian Peasant</string>
+    <string name="cotroceni_palace">Cotroceni Palace</string>
+    <string name="arcul_de_triumf">Arcul de Triumf</string>
+    <string name="piata_presei">Piata Presei Libere</string>
+    <string name="geology_museum">Geology Museum</string>
+    <string name="military_museum">National Military Museum</string>
+
+    <!--Historical attractions locations-->
+    <string name="palace_of_parliament_location">Strada Izvor 2–4</string>
+    <string name="romanian_athenaeum_location">Strada Benjamin Franklin 1–3</string>
+    <string name="art_museum_location">Calea Victoriei 49–53</string>
+    <string name="antipa_museum_location">Pavel Dimitrievici Kiseleff 1</string>
+    <string name="peasant_museum_location">Pavel Dimitrievici Kiseleff 3</string>
+    <string name="cotroceni_palace_location">Bulevardul Geniului 1</string>
+    <string name="arcul_de_triumf_location">Piața Arcul de Triumf</string>
+    <string name="piata_presei_location">Bucharest</string>
+    <string name="geology_museum_location">Șoseaua Pavel Dimitrievici Kiseleff</string>
+    <string name="military_museum_location">Strada Mircea Vulcănescu 125–127</string>
+
+    <!--Historical attractions geolocations-->
+    <string name="palace_of_parliament_geolocation">https://www.google.ro/maps/place/Palace+of+Parliament/@44.4275035,26.0851619,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff427bee28c1:0x2b1089f802abaddc!8m2!3d44.4275035!4d26.0873506?hl=en</string>
+    <string name="romanian_athenaeum_geolocation">https://www.google.ro/maps/place/Romanian+Athenaeum/@44.4413811,26.0952074,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff4f6e6d7997:0x5a73af5fe07876f2!8m2!3d44.4413811!4d26.0973961?hl=en</string>
+    <string name="art_museum_geolocation">https://www.google.ro/maps/place/The+National+Museum+of+Art+of+Romania/@44.4393668,26.0936853,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff45a2c1486f:0xdea7c86f153f2330!8m2!3d44.4393668!4d26.095874?hl=en</string>
+    <string name="antipa_museum_geolocation">https://www.google.ro/maps/place/Antipa+Museum/@44.4531131,26.0824495,17z/data=!3m1!4b1!4m5!3m4!1s0x40b201ff7eb6eee5:0x120b912fe44ec81d!8m2!3d44.4531131!4d26.0846382?hl=en</string>
+    <string name="peasant_museum_geolocation">https://www.google.ro/maps/place/Museum+of+the+Romanian+Peasant/@44.4544198,26.08268,18z/data=!3m1!4b1!4m5!3m4!1s0x40b20201893a4cd1:0xddcebd3aef3114e3!8m2!3d44.4544198!4d26.0836002?hl=en</string>
+    <string name="cotroceni_palace_geolocation">https://www.google.ro/maps/place/Muzeul+Cotroceni/@44.4352431,26.0611689,17z/data=!3m1!4b1!4m5!3m4!1s0x40b201dbbe0b8639:0xeca7ba35fbc72d4d!8m2!3d44.4352431!4d26.0633576?hl=en</string>
+    <string name="arcul_de_triumf_geolocation">https://www.google.ro/maps/place/The+Arch+Of+Triumph/@44.4671772,26.076284,17z/data=!3m1!4b1!4m5!3m4!1s0x40b202172654ca11:0x57ae7c6e837bc61b!8m2!3d44.4671772!4d26.0781245?hl=en</string>
+    <string name="piata_presei_geolocation">https://www.google.ro/maps/place/House+of+Free+Press/@44.4808943,26.0707983,16.5z/data=!4m5!3m4!1s0x40b202460cd034ab:0x73f1ec0f99c1adf6!8m2!3d44.4809135!4d26.0712498?hl=en</string>
+    <string name="geology_museum_geolocation">https://www.google.ro/maps/place/National+Geology+Museum/@44.4548484,26.0830343,17z/data=!3m1!4b1!4m5!3m4!1s0x40b20201bfdd0fad:0xbe5366e04a0b1d45!8m2!3d44.4548484!4d26.085223?hl=en</string>
+    <string name="military_museum_geolocation">https://www.google.ro/maps/place/National+Military+Museum/@44.4407516,26.0744093,17z/data=!3m1!4b1!4m5!3m4!1s0x40b201e2102a641b:0x7a32aefdf0d8b116!8m2!3d44.4407516!4d26.076598?hl=en</string>
+
+    <!--============================================================================================================================================================================-->
+    <!--Parks-->
+    <string name="bazilescu_park">Bazilescu Park</string>
+    <string name="herastrau_park">Herastrau Park</string>
+    <string name="cuza_park">Alexandru Ioan Cuza Park</string>
+    <string name="drumul_taberei_park">Drumul Taberei Park</string>
+    <string name="izvor_park">Izvor Park</string>
+    <string name="tineretului_park">Tineretului Park</string>
+    <string name="vacaresti_park">Vacaresti Park</string>
+    <string name="cismigiu_garden">Cismigiu Garden</string>
+
+    <!--Parks locations-->
+    <string name="bazilescu_park_location">Bulevardul Bucurestii Noi</string>
+    <string name="herastrau_park_location">Bucharest</string>
+    <string name="cuza_park_location">Titan</string>
+    <string name="drumul_taberei_park_location">Drumul Taberei</string>
+    <string name="izvor_park_location">Strada Izvor 2–4</string>
+    <string name="tineretului_park_location">Bucharest</string>
+    <string name="vacaresti_park_location">Bucharest</string>
+    <string name="cismigiu_garden_location">Bulevardul Regina Elisabeta</string>
+
+    <!--Parks geolocations-->
+    <string name="bazilescu_park_geolocation">https://www.google.ro/maps/place/Parcul+Bazilescu/@44.4886196,26.0323808,17z/data=!3m1!4b1!4m5!3m4!1s0x40b203bef9b8dcef:0x9480bb106125e2ab!8m2!3d44.4886196!4d26.0345695?hl=en</string>
+    <string name="herastrau_park_geolocation">https://www.google.ro/maps/place/Herastrau+Park/@44.4684728,26.0783423,17z/data=!3m1!4b1!4m5!3m4!1s0x40b2026a77968d29:0x7554c9ac9eeef831!8m2!3d44.468469!4d26.080531?hl=en</string>
+    <string name="cuza_park_geolocation">https://www.google.ro/maps/place/Alexandru+Ioan+Cuza+Park/@44.4255117,26.1513445,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1feb663d02dd3:0xf0489031c3cf5127!8m2!3d44.4255117!4d26.1535332?hl=en</string>
+    <string name="drumul_taberei_park_geolocation">https://www.google.ro/maps/place/Parcul+Drumul+Taberei/@44.4208643,26.0291138,17z/data=!3m1!4b1!4m5!3m4!1s0x40b20036c2aff6b1:0x8772154e0f9b91ea!8m2!3d44.4208643!4d26.0313025?hl=en</string>
+    <string name="izvor_park_geolocation">https://www.google.ro/maps/place/Parcul+Izvor/@44.4318548,26.0852621,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff69caad53bd:0x5f5bfeef1ae990d5!8m2!3d44.4318548!4d26.0874508?hl=en</string>
+    <string name="tineretului_geopark_location">https://www.google.ro/maps/place/Parcul+Tineretului/@44.4057176,26.103872,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ffaad2d5dcff:0x9c229d7528e44f8e!8m2!3d44.4057176!4d26.1060607?hl=en</string>
+    <string name="vacaresti_park_geolocation">https://www.google.ro/maps/place/Lacul+Vacaresti/@44.3993187,26.1299243,16z/data=!3m1!4b1!4m5!3m4!1s0x40b1fe6665050b83:0x792873b0dd11d65e!8m2!3d44.4010172!4d26.1338768?hl=en</string>
+    <string name="cismigiu_garden_geolocation">https://www.google.ro/maps/place/Cismigiu+Park/@44.4369687,26.088795,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff438f7e6fcf:0x3e98ab275166423b!8m2!3d44.4369687!4d26.0909837?hl=en</string>
+
+    <!--============================================================================================================================================================================-->
+    <!--Restaurants-->
+    <string name="hard_rock">Hard Rock Cafe</string>
+    <string name="sheraton">Sheraton Bucharest</string>
+    <string name="silk_panoramic">Silk Panoramic Restaurant</string>
+    <string name="caru_cu_bere">Caru\' cu Bere</string>
+    <string name="mica_elvetie">Mica Elvetie</string>
+    <string name="prime_restaurant">Prime Steaks &amp; Food", "Bucharest</string>
+
+    <!--Restaurant locations-->
+    <string name="hard_rock_location">Soseaua Kiseleff 32</string>
+    <string name="sheraton_location">Calea Dorobantilor 5–7</string>
+    <string name="silk_panoramic_location">Strada Ion Nistor 4</string>
+    <string name="caru_cu_bere_location">Strada Stavropoleos 5</string>
+    <string name="mica_elvetie_location">Strada Franceză 60</string>
+    <string name="prime_restaurant_location">Calea Victoriei 63–81</string>
+
+    <!--Restaurant geolocations-->
+    <string name="hard_rock_geolocation">https://www.google.ro/maps/place/Hard+Rock+Cafe/@44.47564,26.0740313,17z/data=!3m1!4b1!4m5!3m4!1s0x40b202407bfdf437:0x925c5047eff0a1d!8m2!3d44.47564!4d26.07622?hl=en</string>
+    <string name="sheraton_geolocation">https://www.google.ro/maps/place/Sheraton+Bucharest+Hotel/@44.4464349,26.0967258,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff4df8567f0f:0x7a51c5422670a4f8!8m2!3d44.4464349!4d26.0989145?hl=en</string>
+    <string name="silk_panoramic_geolocation">https://www.google.ro/maps/place/Silk+Panoramic+Restaurant/@44.434716,26.0997493,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff4755cc0001:0x6d5b5a593f9a3ee5!8m2!3d44.434716!4d26.101938?hl=en</string>
+    <string name="caru_cu_bere_geolocation">https://www.google.ro/maps/place/Caru\'+cu+Bere/@44.431991,26.0959237,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff406bde77c1:0xca85c319d658a754!8m2!3d44.431991!4d26.0981124?hl=en</string>
+    <string name="mica_elvetie_geolocation">https://www.google.ro/maps/place/Mica+Elvetie/@44.4297988,26.0995113,17z/data=!3m1!4b1!4m5!3m4!1s0x40b2023cbf12eb07:0xc1c8be8a93d6d3dd!8m2!3d44.4297988!4d26.1017?hl=en</string>
+    <string name="prime_restaurant_geolocation">https://www.google.ro/maps/place/Restaurant+Prime+Steaks+%26+Seafood/@44.44136,26.0924274,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff4ff71ef41f:0x89a8a11aa5c70c99!8m2!3d44.44136!4d26.0946161?hl=en</string>
+
+    <!--============================================================================================================================================================================-->
+    <!--Activities-->
+    <string name="zoo_baneasa">Zoo Baneasa</string>
+    <string name="martial_arts">Martial Arts</string>
+    <string name="therme">Therme Bucuresti</string>
+    <string name="observatory">Astronomic Observatory </string>
+    <string name="escape_room">Mystery Rooms Escape</string>
+
+
+    <!--Activity locations-->
+    <string name="zoo_baneasa_location">Strada Vadul Moldovei 4</string>
+    <string name="martial_arts_location">Bulevardul Basarabia</string>
+    <string name="therme_location">DN1,Otopeni-Balotesti</string>
+    <string name="observatory_location">Bulevardul Lascăr Catargiu 21</string>
+    <string name="escape_room_location">Bulevardul Schitu Măgureanu 45</string>
+
+    <!--Activity geolocations-->
+    <string name="zoo_baneasa_geolocation">https://www.google.ro/maps/place/Gradina+Zoologica/@44.5163628,26.1027449,15.75z/data=!4m5!3m4!1s0x40b202dab1f665f5:0x23f987bbc405cd2a!8m2!3d44.5172694!4d26.1044899?hl=en</string>
+    <string name="martial_arts_geolocation">https://www.google.ro/maps/place/Parcul+National/@44.4340608,26.1471469,17z/data=!4m5!3m4!1s0x40b1fed294fd3333:0x260466bf7d941be3!8m2!3d44.4333407!4d26.1493463?hl=en</string>
+    <string name="therme_geolocation">https://www.google.ro/maps/place/Therme+Bucharest/@44.6058901,26.083187,17z/data=!3m1!4b1!4m5!3m4!1s0x40b21bdb3801500b:0xf8107e7e5f8b4746!8m2!3d44.6058901!4d26.0853757?hl=en</string>
+    <string name="observatory_geolocation">https://www.google.ro/maps/place/Observatorul+Astronomic+Amiral+Vasile+Urseanu/@44.448623,26.0909163,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff53841a2257:0x5e8f39a5afcf89aa!8m2!3d44.448623!4d26.093105?hl=en</string>
+    <string name="escape_room_geolocation">https://www.google.ro/maps/place/Mystery+Rooms+Escape/@44.4387789,26.0850343,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff5b711f0e59:0x6ee49bdc15437eff!8m2!3d44.4387789!4d26.087223?hl=en</string>
+</resources>
