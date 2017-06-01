@@ -10,9 +10,9 @@ import com.example.android.fragments.HistoryFragment;
 import com.example.android.fragments.ParksFragment;
 import com.example.android.fragments.RestaurantsFragment;
 
-public class CategoryAdapter extends FragmentPagerAdapter {
+class CategoryAdapter extends FragmentPagerAdapter {
 
-    private Context mContext;
+    private final Context mContext;
 
     CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
@@ -21,15 +21,22 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new HistoryFragment();
-        } else if (position == 1) {
-            return new ParksFragment();
-        } else if (position == 2) {
-            return new RestaurantsFragment();
-        } else {
-            return new ActivitiesFragment();
+        Fragment fragment = null;
+        switch (position) {
+            case 0:
+                fragment =  new HistoryFragment();
+                break;
+            case 1:
+                fragment = new ParksFragment();
+                break;
+            case 2:
+                fragment = new RestaurantsFragment();
+                break;
+            case 3:
+                fragment = new ActivitiesFragment();
+                break;
         }
+        return fragment;
     }
 
     @Override
@@ -39,14 +46,17 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return mContext.getString(R.string.category_historical_places);
-        } else if (position == 1) {
-            return mContext.getString(R.string.category_parks);
-        } else if (position == 2) {
-            return mContext.getString(R.string.category_restaurants);
-        } else {
-            return mContext.getString(R.string.category_activities);
+        CharSequence charSequence = null;
+        switch (position){
+            case 0: charSequence = mContext.getString(R.string.category_historical_places);
+                break;
+            case 1: charSequence = mContext.getString(R.string.category_parks);
+                break;
+            case 2: charSequence = mContext.getString(R.string.category_restaurants);
+                break;
+            case 3: charSequence = mContext.getString(R.string.category_activities);
+                break;
         }
+        return charSequence;
     }
 }

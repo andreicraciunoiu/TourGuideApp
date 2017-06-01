@@ -29,7 +29,7 @@ public class AboutBucharest extends AppCompatActivity {
             public void onClick(View v) {
                 Intent continueIntent = new Intent(AboutBucharest.this, WhatToDoInBucharest.class);
                 startActivity(continueIntent);
-                Toast.makeText(AboutBucharest.this, "Tap on item for location", Toast.LENGTH_LONG).show();
+                Toast.makeText(AboutBucharest.this, getString(R.string.toast_message), Toast.LENGTH_LONG).show();
             }
         });
     }
